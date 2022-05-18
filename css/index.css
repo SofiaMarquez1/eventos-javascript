@@ -1,0 +1,24 @@
+.bienvenida {
+  height: 400px;
+  background-image: url(../img/banner.jpg);
+  font-size: 200px;
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+}
+
+.bienvenida .titulo {
+  background-color: black;
+  height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0 200px 0 200px;
+}
+
+.presentacion {
+  height: 45px;
+  font-size: 100px;
+  background-color: #83c483;
+  color: black;
+  text-align: center;
+}

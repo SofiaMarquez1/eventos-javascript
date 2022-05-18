@@ -1,0 +1,40 @@
+$color-verde: rgb(131, 196, 131);
+$color-verdeagua: rgb(78, 253, 131);
+$color-negro:black;
+$color-blanco:white;
+
+body{
+    background-color: $color-verdeagua
+}
+
+.bienvenida{
+    height: 400px;
+    background-image: url(../img/banner.jpg);
+    font-size: 200px;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+        .titulo{
+            background-color: $color-negro;
+            height: 50px;
+            border-radius: 50px;
+            text-align: center;
+            margin: 0 200px 0 200px;
+        }
+}
+
+.presentacion{
+    height: 45px;
+    font-size: 100px;
+    background-color: $color-verde;
+    color: $color-negro ;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border: solid 2px;
+}
